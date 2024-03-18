@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="mt-3">Add categories</h1>
+    <!-- Form submition won't work unless we import "FormsModule" in "app.module.ts" -->
+    <!-- below we'll create a temporary variable using "#" -->
+    <!-- "ngForm" is comming from "FormsModule" it says that this form is an Angular form -->
+    <!-- (ngSubmit) -> it is nothing but onClick / onSubmit event  -->
+    <!-- "onFormSubmit" is the user defined fuction which is in "add-category.components.ts" -->
+    <form #form="ngForm" (ngSubmit)="onFormSubmit()">
+        <div class="mt-2">
+            <div class="mt-3">
+                <label class="form-label">Category Name</label>
+                <input type="text" id="categoryName" class="form-control" name="categoryName" [(ngModel)] = "model.name">
+            </div>
+
+            <div class="mt-3">
+                <label class="form-label">Category Url Handle</label>
+                <input type="text" id="categoryUrlHandle" class="form-control" name="categoryUrlHandle" [(ngModel)] = "model.urlHandle">
+            </div>
+
+            <div class="mt-3">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </form>
+</div>

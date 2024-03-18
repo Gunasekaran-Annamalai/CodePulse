@@ -134,3 +134,4 @@ D:\.NET\Udemy\CodePulse\CodePulseAPI\CodePulseAPI\obj\Debug\net8.0\refint\CodePu
 D:\.NET\Udemy\CodePulse\CodePulseAPI\CodePulseAPI\obj\Debug\net8.0\CodePulseAPI.pdb
 D:\.NET\Udemy\CodePulse\CodePulseAPI\CodePulseAPI\obj\Debug\net8.0\CodePulseAPI.genruntimeconfig.cache
 D:\.NET\Udemy\CodePulse\CodePulseAPI\CodePulseAPI\obj\Debug\net8.0\ref\CodePulseAPI.dll
+D:\.NET\Udemy\CodePulse\CodePulseAPI\CodePulseAPI\obj\Debug\net8.0\CodePulseAPI.sourcelink.json

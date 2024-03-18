@@ -58,5 +58,12 @@ namespace CodePulse.Controllers
             }
             return Ok(response);
         }
+
+        [HttpGet]
+        [Route("help")]
+        public IActionResult Help()
+        {
+            return Ok();
+        }
     }
 }
