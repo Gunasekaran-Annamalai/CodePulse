@@ -1,5 +1,6 @@
 using CodePulseAPI.Model.Data;
-using CodePulseAPI.Repositories;
+using CodePulseAPI.Repositories.Implementation;
+using CodePulseAPI.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IBlogPostRepository, BlogPostRepository>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {

@@ -23,7 +23,7 @@ export class CategoryListComponent {
     // !important Note: When we just need to display the data we may use async pipe method
 
     // the following is to getAllCategories using Async pipe method
-    // after 
+    // after getting the result we can use them in HTML
     this.categories$ = this.categoryService.getAllCategories();// -> we can do the next step in the html file
 
     // the below code is to getAllCategories using subcription method
